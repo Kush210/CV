@@ -101,6 +101,8 @@ export default function Page() {
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
           {RESUME_DATA.work.map((work) => {
+
+            const descriptionItems = work.description.split('\n');
             return (
               <Card key={work.company}>
                 <CardHeader>
@@ -132,7 +134,13 @@ export default function Page() {
                   </h4>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
-                  {work.description}
+                  {
+                    <ul style={{ listStyleType: 'disc', marginLeft: '1rem' }}>
+                    {descriptionItems.map((item, index) => (
+                      <li key={index}>{item}</li>
+                    ))}
+                  </ul>
+                  }
                 </CardContent>
               </Card>
             );
@@ -153,7 +161,14 @@ export default function Page() {
                     </div>
                   </div>
                 </CardHeader>
-                <CardContent className="mt-2">{education.degree}</CardContent>
+                <CardContent className="mt-2">
+                <div className="flex items-center justify-between gap-x-2 text-base">
+                    {education.school}
+                    <div className="text-sm tabular-nums text-gray-500">
+                      {education.gpa}
+                    </div>
+                  </div>  
+                </CardContent>
               </Card>
             );
           })}
@@ -167,9 +182,9 @@ export default function Page() {
           </div>
         </Section>
 
-        <Section className="print-force-new-page scroll-mb-16">
+        <Section>
           <h2 className="text-xl font-bold">Projects</h2>
-          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+          <div className="space-y-4">
             {RESUME_DATA.projects.map((project) => {
               return (
                 <ProjectCard

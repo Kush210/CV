@@ -16,263 +16,143 @@ import {
   ParabolLogo,
   TastyCloudLogo,
   YearProgressLogo,
+  BARClogo,
+  RadicalXlogo,
+  IITlogo
+
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Kush Suryavanshi",
+  initials: "KS",
+  location: "Boston, MA ",
+  locationLink: "https://maps.app.goo.gl/5ZswAWrj9mGHyi6A8",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Machine learning Engineer focused on building products with extra attention to detail",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "As a prospective Machine Learning Engineer, I hold a Master's degree in Artificial Intelligence from Northeastern University, complemented by hands-on experience in data science and artificial intelligence gained through internships at BARC India, RadicalX, and the Indian Institute of Technology. Proficient in languages such as C++, Python, and MATLAB, and skilled in frameworks like Tensorflow and Pytorch, I specialize in developing innovative solutions for anomaly detection, hand gesture recognition, and multimodal emotion recognition. Eager to contribute my expertise to the field, I am well-prepared to embark on a journey as a Machine Learning Engineer, bringing a solid foundation in AI, deep learning, and data analytics.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/31185676?s=400&u=b8d62f590149979746daaff2f8fada98dd2b1bce&v=4",
+  personalWebsiteUrl: "https://www.linkedin.com/in/kush-s/",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "Kush2101999@gmail.com",
+    tel: "+19172542665",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/Kush210",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/kush-s/",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
-      },
+      }
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Northeastern University",
+      degree: "Master's of Science in Artificial Intelligence",
+      start: "2022",
+      end: "2024",
+      gpa: "3.6",
+    },
+    {
+      school: "Indian Institute of Information Technology",
+      degree: "Bachelor's of Technology in Smart Manufacturing",
+      start: "2017",
+      end: "2021",
+      gpa: "8.73/10"
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      company: "BARC India",
+      link: "https://www.barcindia.co.in/",
+      badges: [],
+      title: "Data Science Intern",
+      logo: BARClogo,
+      start: "July 2023",
+      end: "August 2023",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        ["Conducted in-depth analysis of demographic survey data, resulting in a 20% improvement in targeting accuracy.",
+        "Devised and implemented innovative algorithms, reducing processing time by 30% and enhancing accuracy by 15%.",
+        "Collaborated with a dynamic team to transform raw data into meaningful insights for strategic planning."
+      ].join('\n')
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
+      company: "RadicalX",
+      link: "https://www.radicalx.co/",
       badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
+      title: "Artificial Intelligence Intern",
+      logo: RadicalXlogo,
+      start: "May 2023",
+      end: "June 2023",
+      description:
+        [
+          "Collaborated with the development team to design and implement AI-powered features and functionalities of the platform.",
+          "Assisted in improving and refining the AI Dev Manager powered by GPT-3, utilizing natural language processing, machine learning, and deep learning technique that drove personalized recommendations and tailored learning paths for users."
+        ].join('\n')
+    },
+    {
+      company: "Indian Institute of Information Technology Bombay",
+      link: "https://www.iitb.ac.in/",
+      badges: ["Remote"],
+      title: "Machine Learning Intern",
+      logo: IITlogo,
+      start: "2021",
       end: "2021",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
-    },
+        [
+          "Developed a speech-to-text system utilizing Google Cloud, Pytorch, and Wavenet to convert voice recordings into text with 95% accuracy.",
+          "Successfully implemented a neural voice cloning system that learned to synthesize audio, showcasing a 50% improvement in recognition rate."
+        ].join('\n')
+    }
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "C++","Python",
+    "Tensorflow", "Pytorch", "scikit-Learn", "OpenCV", "Pandas", "NumPy", "Matplotlib", "Seaborn",
+    "Statistics", "Machine learning", "Deep Learning", "Data Analytics", "Natural Language Processing", "Computer Vision"
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Anomaly Detection in Chest X-ray Using Autoencoder Network",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Autorcncoder",
+        "Deep learning",
+        "python",
+        "Pytorch"
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description: [
+        "Developed and implemented a novel anomaly detection method using dual-distribution discrepancy, resulting in a 14.6% improvement over the AE baseline and 10.8% over the MemAE baseline on  RSNA Pneumonia Detection Dataset.",
+        "Utilized inter- and intra-discrepancy scores to identify anomalies in CXR datasets, achieving a 4.3% improvement over AE-U baseline on the VinBigData Chest X-ray Abnormalities Detection dataset.",
+        "Conducted experiments on RSNA Pneumonia Detection Challenge and VinBigData Chest X-ray Abnormalities Detection, which resulted in the successful implementation of our anomaly detection method to improve performance by up to 14.6%."
+      ].join('\n'),
+      logo: [],
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "Autoencoder based Anomaly detection",
+        href: "https://github.com/Kush210/Anomaly-detection-",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Multimodal Emotion Recognition using Recurrent Neural Networks",
+      techStack: ["Multi-speaker", "RNN", "BiLSTM", "Tensorflow"],
       description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
+        [
+          "Developed hybrid models of BiLSTM and Dialogue RNN architectures on MELD Dataset for emotion classification achieving 67% maximum accuracy with a team of three.",
+          "Utilized various techniques like Principal Component Analysis, signal processing, and Deep Learning to analyse multimodal data from various platforms.",
+          "Tested 6 different modality combinations on a 5-fold cross-validation sample set resulting in an average precision of 62%."
+        ].join('\n')
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Hand Gesture Recognition using 3D CNN and Recurrent Neural Network",
+      techStack: ["Python", "tensorflow", "3D CNN"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
+        [
+          "Developed a 3D CNN architecture to extract spatiotemporal features from video sequences and used a combination of 2D CNN and LSTM to extract spatial features and learn the temporal dependencies between frames and improve the accuracy of the model. Regularized using GridSearchCV and achieved a further improvement in accuracy to 94%.",
+          "Preprocessed the dataset by resizing images to a consistent size of 100x100 and normalizing pixel values to have zero mean and unit variance. Trained the model on a dataset of 700 videos, achieving an accuracy of 92% on the test set."
+        ].join('\n'),
+    }
   ],
 } as const;

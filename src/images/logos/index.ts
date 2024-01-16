@@ -6,7 +6,7 @@ import CDGOLogo from "./cdgo.png";
 import ClevertechLogo from "./clevertech.png";
 import EvercastLogo from "./evercast.svg";
 import Howdy from "./howdy.png";
-import JarockiMeLogo from "./jarocki.svg";
+import JarockiMeLogo from "./KS.jpg";
 import JojoMobileLogo from "./jojomobile.png";
 import MonitoLogo from "./monito.svg";
 import MobileVikingsLogo from "./mv.png";
@@ -15,6 +15,10 @@ import ParabolLogo from "./parabol.svg";
 import TastyCloudLogo from "./tastycloud.png";
 import YearProgressLogo from "./yearprogress.svg";
 import Minimal from "./minimal.svg";
+import BARClogo from "./barc-logo.png"
+import RadicalXlogo from "./RadicalX-logo.png"
+import IITlogo from "./IIT-logo.png"
+
 
 export {
   ConsultlyLogo,
@@ -34,4 +38,7 @@ export {
   TastyCloudLogo,
   YearProgressLogo,
   Minimal,
+  BARClogo,
+  RadicalXlogo,
+  IITlogo
 };
