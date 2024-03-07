@@ -146,12 +146,13 @@ export const RESUME_DATA = {
         ].join('\n')
     },
     {
-      title: "Hand Gesture Recognition using 3D CNN and Recurrent Neural Network",
-      techStack: ["Python", "tensorflow", "3D CNN"],
+      title: "Neural Image caption generation with visual attention",
+      techStack: ["Python", "Pytorch", "Attention mechanis"],
       description:
         [
-          "Developed a 3D CNN architecture to extract spatiotemporal features from video sequences and used a combination of 2D CNN and LSTM to extract spatial features and learn the temporal dependencies between frames and improve the accuracy of the model. Regularized using GridSearchCV and achieved a further improvement in accuracy to 94%.",
-          "Preprocessed the dataset by resizing images to a consistent size of 100x100 and normalizing pixel values to have zero mean and unit variance. Trained the model on a dataset of 700 videos, achieving an accuracy of 92% on the test set."
+          "Implemented a neural image captioning architecture, enhancing model performance by incorporating attention mechanisms for dynamic focus during caption generation, resulting in a 15% increase in caption accuracy.",
+          "Utilized VGG and Inception V3 feature extractors to explore the impact of different visual representations on model performance, leading to a 10% improvement in image captioning quality.",
+          "Achieved a BLUE-1 score of 36 and METEOR score of 10.04 by implementing architecture using VGG and Inception V3, providing a 20% faster training convergence than the Inception V3 feature extractor."
         ].join('\n'),
     }
   ],
